@@ -1,0 +1,29 @@
+{
+  "name": "txt-game",
+  "version": "1.0.0",
+  "description": "Text game framework for node",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Supermegadex/txt-game-framework.git"
+  },
+  "keywords": [
+    "library",
+    "framework",
+    "javascript",
+    "text"
+  ],
+  "author": "Daniel Noon",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/Supermegadex/txt-game-framework/issues"
+  },
+  "homepage": "https://github.com/Supermegadex/txt-game-framework#readme",
+  "dependencies": {
+    "chalk": "^2.1.0",
+    "node-persist": "^2.1.0"
+  }
+}
