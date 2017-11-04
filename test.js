@@ -1,6 +1,6 @@
-const game = require("./index");
+const Game = require("./index");
 
-game.init(
+let game = new Game(
     require("./test/maps"),
     require("./test/scenes"),
     require("./test/strings"),
