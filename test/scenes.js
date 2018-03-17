@@ -5,8 +5,8 @@ module.exports = {
     text: "this is this intro room"
   },
   "room2": {
-    text(player, state, tools) {
-
+    text(player, state, tools, interpolate) {
+      return interpolate("Hello, {{name}}. {{objPronoun}}.");
     }
   }
 };
